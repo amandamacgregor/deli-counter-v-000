@@ -10,7 +10,9 @@ def line(katz_deli)
    line = "The line is currently:"
    other_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
-      
+    else
+   another_deli.each.with_index(1) do |person, i|
+      line << " #{i}. #{person}"
    #{other_deli[0]} #{other_deli[0]} #{other_deli_number[1]} #{other_deli[1]} #{other_deli_number[2]} #{other_deli[2]}"
  end
  puts line
