@@ -12,9 +12,6 @@ def line(deli)
    line = "The line is currently:"
    deli.each.with_index(1) do |name, index|
      return line << " #{index}. #{name}"
-      
-
- 
  end
  puts line
  end
