@@ -24,6 +24,7 @@ def line(deli)
 # 4: baz
  
  end
+ puts line
  end
 end
 
