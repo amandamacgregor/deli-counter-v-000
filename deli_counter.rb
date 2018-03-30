@@ -19,7 +19,7 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  puts "Welcome, #{name}. #{index}
+  puts "Welcome, #{name}. You are number #{index} in line."
 end
 
 def now_serving()
