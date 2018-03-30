@@ -22,9 +22,6 @@ def take_a_number(deli, new_name)
  deli << new_name
  puts "Welcome, #{new_name}. You are number #{deli.length} in line."
 end
-
-
-
 ###just the one person (ada) needs to be involved
 
 def now_serving()
