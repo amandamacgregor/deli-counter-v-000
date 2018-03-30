@@ -11,7 +11,7 @@ def line(katz_deli)
    other_deli.each.with_index(1) do |name, index|
      return line << " #{index}. #{name}"
       
-#       The with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
+#       The each.with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
 # For example:
 # [:foo, :bar, :baz].each.with_index(2) do |value, index|
 #     puts "#{index}: #{value}"
