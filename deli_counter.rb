@@ -4,7 +4,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 # Write your code here.
 
 def line(katz_deli)
-  if deli.empty?
+  if katz_deli.empty?
  puts "The line is currently empty."
  elsif 
    line = "The line is currently:"
