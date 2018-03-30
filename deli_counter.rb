@@ -25,9 +25,12 @@ end
 ###just the one person (ada) needs to be involved
 
 def now_serving()
+  if line.empy?
+    puts "There is nobody waiting to be served!"
+  else
   puts "Currently serving #{name}."
+end
   
-  puts "There is nobody waiting to be served!"
 end
 
 #       The each.with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
