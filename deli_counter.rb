@@ -5,12 +5,12 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi", "Joe", "Rachel", "Lindsey"]
 # Write your code here.
 
-def line(katz_deli)
-  if katz_deli.empty?
+def line(deli)
+  if deli.empty?
  puts "The line is currently empty."
  else
    line = "The line is currently:"
-   other_deli.each.with_index(1) do |name, index|
+   deli.each.with_index(1) do |name, index|
      return line << " #{index}. #{name}"
       
 #       The each.with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
