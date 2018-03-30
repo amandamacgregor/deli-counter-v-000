@@ -9,7 +9,7 @@ def line(katz_deli)
  elsif 
    line = "The line is currently:"
    other_deli.each.with_index(1) do |name, index|
-      line << " #{index}. #{name}"
+     puts line << " #{index}. #{name}"
       
 #       The with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
 # For example:
