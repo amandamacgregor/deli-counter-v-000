@@ -24,8 +24,9 @@ def take_a_number(deli, name)
   else
   deli.each.with_index(1) do |name, index|
 end
-puts "Welcome, #{name}. You are number #{index} in line."
+
 end
+puts "Welcome, #{name}. You are number #{index} in line."
 end
 
 def now_serving()
