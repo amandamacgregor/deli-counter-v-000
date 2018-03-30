@@ -19,12 +19,13 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
+  number = "Welcome, #{name}. You are number #{index} in line."
   if deli.empty?
     deli << 'Ada' 
   else
   deli.each.with_index(1) do |name, index|
 end
-puts "Welcome, #{name}. You are number #{index} in line."
+puts number
 end
 end
 
