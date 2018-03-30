@@ -13,8 +13,8 @@ def line(deli)
    another_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
  end
+ end
  puts line
-end
 end
 
 def take_a_number(katz_deli, name)
