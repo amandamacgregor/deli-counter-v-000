@@ -6,7 +6,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 def line(katz_deli)
   if deli.empty?
  puts "The line is currently empty."
- else
+ elsif 
    line = "The line is currently: 
    #{other_deli[0]} #{other_deli[0]} #{other_deli_number[1]} #{other_deli[1]} #{other_deli_number[2]} #{other_deli[2]}"
  end
