@@ -19,15 +19,10 @@ def line(deli)
 end
 
 def take_a_number(deli, name)
-  number = "Welcome, #{name}. You are number #{index} in line."
-  if deli.empty?
-    deli << 'Ada' 
-  else
-  deli.each.with_index(1) do |name, index|
+ deli << name
+ "Welcome, #{name}. You are number #{deli.length} in line."
 end
-puts number
-end
-end
+###just one person needs to be involved
 
 def now_serving()
   puts "Currently serving #{name}."
