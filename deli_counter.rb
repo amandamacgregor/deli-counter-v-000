@@ -26,6 +26,7 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{index} in line."
 end
 end
+end
 
 def now_serving()
   puts "Currently serving #{name}."
