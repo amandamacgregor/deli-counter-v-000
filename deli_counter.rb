@@ -15,7 +15,7 @@ def line(katz_deli)
  end
  puts line
 end
-
+end
 def take_a_number(katz_deli, name)
   puts #{name} #{index}
 end
