@@ -23,8 +23,8 @@ def take_a_number(deli, name)
     deli << 'Ada' 
   else
   deli.each.with_index(1) do |name, index|
-  puts "Welcome, #{name}. You are number #{index} in line."
 end
+puts "Welcome, #{name}. You are number #{index} in line."
 end
 end
 
