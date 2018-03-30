@@ -13,11 +13,11 @@ def line(deli)
     else
    another_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
-   #{other_deli[0]} #{other_deli[0]} #{other_deli_number[1]} #{other_deli[1]} #{other_deli_number[2]} #{other_deli[2]}"
  end
  puts line
 end
 end
+
 def take_a_number(katz_deli, name)
   puts #{name} #{index}
 end
