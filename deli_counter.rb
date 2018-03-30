@@ -25,7 +25,7 @@ end
 ###just the one person (ada) needs to be involved
 
 def now_serving(deli)
-  if deli.empy?
+  if deli.empty?
     puts "There is nobody waiting to be served!"
   else
   puts "Currently serving #{name}."
