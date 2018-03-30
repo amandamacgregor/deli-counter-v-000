@@ -21,7 +21,7 @@ end
 def take_a_number(deli, name)
   if deli.empty?
     deli[-1] << "Ada"
-    puts 
+  else
   deli.each.with_index(1) do |name, index|
   puts "Welcome, #{name}. You are number #{index} in line."
 end
