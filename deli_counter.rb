@@ -24,8 +24,8 @@ def take_a_number(deli, new_name)
 end
 ###just the one person (ada) needs to be involved
 
-def now_serving(deli, name)
-  if line.empy?
+def now_serving(deli)
+  if deli.empy?
     puts "There is nobody waiting to be served!"
   else
   puts "Currently serving #{name}."
