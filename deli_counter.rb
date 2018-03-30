@@ -13,7 +13,6 @@ def line(katz_deli)
  
  end
  end
- puts line
 end
 
 def take_a_number(katz_deli, name)
