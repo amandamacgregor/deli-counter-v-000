@@ -10,10 +10,10 @@ def line(deli)
    line = "The line is currently:"
    other_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
-    else
    another_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
  end
+ puts line
 end
 end
 
