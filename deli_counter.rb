@@ -29,7 +29,7 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else
   serving = "The line is currently serving: "
-   deli.each.with_index(1) do |name|
+   deli.each.with_index(1) do |name, index|
      serving << "#{name}."
 end
 puts serving
