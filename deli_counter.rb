@@ -8,8 +8,8 @@ def line(katz_deli)
  puts "The line is currently empty."
  elsif 
    line = "The line is currently:"
-   other_deli.each.with_index(1) do |person, i|
-      line << " #{i}. #{person}"
+   other_deli.each.with_index(1) do |name, index|
+      line << " #{index}. #{name}"
  
  end
  end
