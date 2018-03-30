@@ -32,7 +32,6 @@ def now_serving(deli)
   deli.shift
 end
   
-end
 ###each? insert? shift?? what do I need to get the loop to move on from the first position?To retrieve and at the same time remove the first item, use shift:
 arr.shift #=> 1
 
