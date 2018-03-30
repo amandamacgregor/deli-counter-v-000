@@ -36,7 +36,8 @@ puts serving
 end
   
 end
-###each? insert? shift?? what do I need to get the loop to move on from the first position?
+###each? insert? shift?? what do I need to get the loop to move on from the first position?To retrieve and at the same time remove the first item, use shift:
+arr.shift #=> 1
 
 #       The each.with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
 # For example:
