@@ -22,6 +22,7 @@ def take_a_number(deli, name)
   deli.each.with_index(1) do |name, index|
   puts "Welcome, #{name}. You are number #{index} in line."
 end
+end
 
 def now_serving()
   puts "Currently serving #{name}."
