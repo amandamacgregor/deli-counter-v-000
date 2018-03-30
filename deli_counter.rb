@@ -14,7 +14,6 @@ def line(deli)
    another_deli.each.with_index(1) do |person, i|
       line << " #{i}. #{person}"
  end
- puts line
 end
 end
 
