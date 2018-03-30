@@ -4,7 +4,7 @@ another_deli = ["Amanda", "Annette", "Ruchi", "Jason", "Logan", "Spencer", "Avi"
 # Write your code here.
 
 def line(katz_deli)
-  if katz_deli.empty?
+  if deli.empty?
  puts "The line is currently empty."
  else
    "The line is currently: #{other_deli[0]} #{other_deli[0]} #{other_deli_number[1]} #{other_deli[1]} #{other_deli_number[2]} #{other_deli[2]}"
