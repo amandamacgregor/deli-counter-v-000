@@ -32,6 +32,7 @@ def now_serving(deli)
    deli.each.with_index(1) do |name|
      line << "#{name}."
 end
+end
   
 end
 
