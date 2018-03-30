@@ -12,14 +12,11 @@ def line(katz_deli)
       line << " #{index}. #{name}"
       
 #       The with_index method takes an optional parameter to offset the starting index. each_with_index does the same thing, but has no optional starting index.
-
 # For example:
-
 # [:foo, :bar, :baz].each.with_index(2) do |value, index|
 #     puts "#{index}: #{value}"
 # end
 # Outputs:
-
 # 2: foo
 # 3: bar
 # 4: baz
